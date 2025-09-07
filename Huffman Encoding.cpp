@@ -9,8 +9,8 @@
 
 using namespace std;
 
-const string ENCODED_PATH = "D:/Pro Ramming/CPP/Dataset/Huffman/Encoded File.txt";
-const string HUFFMAN_PATH = "D:/Pro Ramming/CPP/Dataset/Huffman/Huffman Map.txt";
+const string ENCODED_PATH = "Encoded File.txt";
+const string HUFFMAN_PATH = "Huffman Map.txt";
 const size_t chunkLength = 8;
 
 struct node {
@@ -145,3 +145,4 @@ int main(int argc, char** argv) {
   cout << "Output file size: " << outputSize << " Bytes" << endl;
   cout << "Compression ratio: " << (float)outputSize / (float)fileContents.size() << endl << endl;
 }
+
