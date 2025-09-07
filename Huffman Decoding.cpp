@@ -6,9 +6,9 @@
 #include <vector>
 using namespace std;
 
-string ENCODED_PATH("D:/Pro Ramming/CPP/Dataset/Huffman/Encoded File.txt");
-ifstream HUFFMAN_STREAM("D:/Pro Ramming/CPP/Dataset/Huffman/Huffman Map.txt");
-ofstream DECODED_STREAM("D:/Pro Ramming/CPP/Dataset/Huffman/Huffman Decoded.txt", ios::binary);
+string ENCODED_PATH("Encoded File.txt");
+ifstream HUFFMAN_STREAM("Huffman Map.txt");
+ofstream DECODED_STREAM("Huffman Decoded.txt", ios::binary);
 
 int ENCODING_CHUNK_LENGTH = 8;
 
@@ -117,3 +117,4 @@ int main() {
     if (!printKey(&reverseHuffmanMap, min, max, &index, &encodedStringBinary)) break;
   }
 }
+
