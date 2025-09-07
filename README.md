@@ -1,3 +1,5 @@
-For encoding, compile with g++. The executable expects the input file as argument.
+Compile with g++.
 
-For decoding, no argument is required. It uses the huffman map and encoded file created by the encoding executable.
+The encoding executable expects the input file as the first argument.
+
+For decoding, no argument is required. It uses the huffman map and encoded file created previously by the encoding executable.
